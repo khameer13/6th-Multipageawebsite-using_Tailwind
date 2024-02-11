@@ -14,13 +14,14 @@ import Services from './components/Services/services.jsx'
 import 'tailwindcss/tailwind.css';
 
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App/>}>
-      <Route path="" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="contact" element={<Contact />} />
-      <Route path="services" element={<Services />} />
+    <Route path="/6th-Multipageawebsite-using_Tailwind/" element={<App/>}>
+      <Route path="/6th-Multipageawebsite-using_Tailwind/" element={<Home />} />
+      <Route path="/6th-Multipageawebsite-using_Tailwind/about" element={<About />} />
+      <Route path="/6th-Multipageawebsite-using_Tailwind/contact" element={<Contact />} />
+      <Route path="/6th-Multipageawebsite-using_Tailwind/services" element={<Services />} />
     </Route>
   )
 );

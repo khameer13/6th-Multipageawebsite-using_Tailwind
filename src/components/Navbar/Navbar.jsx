@@ -11,13 +11,13 @@ function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               {/* Your logo or brand icon here */}
-              <img className="h-8 w-auto" src="/vite.svg" alt="Your logo" />
+              <img className="h-8 w-auto" src="./vite.svg" alt="Your logo" />
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 {/* Navigation links */}
                 <NavLink
-                  to="/"
+                  to="/6th-Multipageawebsite-using_Tailwind/"
                   className={({ isActive }) =>
                     ` ${
                       isActive ? "text-orange-700" : "text-gray-300"
@@ -27,7 +27,7 @@ function Navbar() {
                   Home
                 </NavLink>
                 <NavLink
-                  to="/about"
+                  to="/6th-Multipageawebsite-using_Tailwind/about"
                   className={({ isActive }) =>
                     ` ${
                       isActive ? "text-orange-700" : "text-gray-300"
@@ -37,7 +37,7 @@ function Navbar() {
                   About
                 </NavLink>
                 <NavLink
-                  to="/services"
+                  to="/6th-Multipageawebsite-using_Tailwind/services"
                   className={({ isActive }) =>
                     ` ${
                       isActive ? "text-orange-700" : "text-gray-300"
@@ -47,7 +47,7 @@ function Navbar() {
                   Services
                 </NavLink>
                 <NavLink
-                  to="/contact"
+                  to="/6th-Multipageawebsite-using_Tailwind/contact"
                   className={({ isActive }) =>
                     ` ${
                       isActive ? "text-orange-700" : "text-gray-300"
@@ -130,7 +130,7 @@ function Navbar() {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           {/* Navigation links */}
           <NavLink
-            to="/"
+            to="/6th-Multipageawebsite-using_Tailwind/"
             className={({ isActive }) =>
               ` ${
                 isActive ? "text-orange-700" : "text-gray-300"
@@ -140,7 +140,7 @@ function Navbar() {
             Home
           </NavLink>
           <NavLink
-            to="/about"
+            to="/6th-Multipageawebsite-using_Tailwind/about"
             className={({ isActive }) =>
               ` ${
                 isActive ? "text-orange-700" : "text-gray-300"
@@ -150,7 +150,7 @@ function Navbar() {
             About
           </NavLink>
           <NavLink
-            to="/services"
+            to="/6th-Multipageawebsite-using_Tailwind/services"
             className={({ isActive }) =>
               ` ${
                 isActive ? "text-orange-700" : "text-gray-300"
@@ -160,7 +160,7 @@ function Navbar() {
             Services
           </NavLink>
           <NavLink
-            to="/contact"
+            to="/6th-Multipageawebsite-using_Tailwind/contact"
             className={({ isActive }) =>
               ` ${
                 isActive ? "text-orange-700" : "text-gray-300"
