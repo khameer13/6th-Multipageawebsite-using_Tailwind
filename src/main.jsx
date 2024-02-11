@@ -18,7 +18,7 @@ import 'tailwindcss/tailwind.css';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/6th-Multipageawebsite-using_Tailwind/" element={<App/>}>
-      <Route path="/6th-Multipageawebsite-using_Tailwind/" element={<Home />} />
+      <Route path="" element={<Home />} />
       <Route path="/6th-Multipageawebsite-using_Tailwind/about" element={<About />} />
       <Route path="/6th-Multipageawebsite-using_Tailwind/contact" element={<Contact />} />
       <Route path="/6th-Multipageawebsite-using_Tailwind/services" element={<Services />} />
